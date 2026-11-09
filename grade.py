@@ -4,5 +4,6 @@ def add_student(name, score):
 def show_all():
     for s in student_list:
         print(f"{s['name']}:{s['score']}")
+        print(f"学生{s['name']}，分数：{s['score']}")
 add_student("张三",90)
 show_all()
